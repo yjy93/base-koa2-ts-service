@@ -1,0 +1,27 @@
+{
+  "name": "kkb-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev ./src/app.ts"
+  },
+  "author": "Gene",
+  "license": "ISC",
+  "dependencies": {
+    "glo": "^2.0.0",
+    "glob": "^7.1.6",
+    "koa": "^2.13.0",
+    "koa-router": "^9.4.0",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.3",
+    "@types/koa": "^2.11.3",
+    "@types/koa-router": "^7.4.1",
+    "@types/reflect-metadata": "^0.1.0",
+    "ts-node-dev": "^1.0.0-pre.57",
+    "typescript": "^3.9.7"
+  }
+}
